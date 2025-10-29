@@ -4,6 +4,10 @@ slug: "about"
 date: 2025-10-27
 ---
 
+<div style="text-align: center; margin-bottom: 30px;">
+  <img src="/images/owaki_photo.jpg" alt="大脇貴仁" style="width: 200px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</div>
+
 「自分が愛する商品しか売れない」
 「顧客にとって競合が優れていれば、正直にそちらを勧める」
 
