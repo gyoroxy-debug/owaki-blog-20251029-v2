@@ -1,0 +1,41 @@
+baseURL = "https://blog.bokunosaiseikeikaku.icu/"
+languageCode = "ja"
+title = "僕の再生計画"
+theme = "PaperMod"
+
+[params]
+defaultTheme = "light"
+ShowShareButtons = true
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = false
+comments = false
+
+[params.homeInfoParams]
+Title = "僕の再生計画"
+Content = "借金800万円・時効7年間の実践記録"
+
+[[menu.main]]
+name = "ホーム"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "著者について"
+url = "/about/"
+weight = 10
+
+[[menu.main]]
+name = "プライバシーポリシー"
+url = "/privacy-policy/"
+weight = 20
+
+[[menu.main]]
+name = "特定商取引法"
+url = "/tokushoho/"
+weight = 30
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
