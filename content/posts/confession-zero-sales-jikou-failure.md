@@ -146,3 +146,11 @@ tags: ["失敗談", "債務の承認", "昭和41年4月20日", "昭和57年10月
 法的な助言・保証を意図するものではありません。
 
 [面談の詳細](https://jikou.bokunosaiseikeikaku.icu/)
+
+<div style="border: 2px solid #333; padding: 20px; text-align: center; margin: 40px 0; background-color: #f5f5f5;">
+  <p style="margin-bottom: 10px;">この記事は、大脇貴仁が借金800万円の時効に挑んだ7年間の実体験の一部です。</p>
+  <p style="margin-bottom: 20px;">より詳しい話を直接聞きたい方は、2時間のオンライン面談をご利用ください。</p>
+  <a href="https://jikou.bokunosaiseikeikaku.icu/" style="display: inline-block; background-color: #000; color: #fff; padding: 15px 30px; text-decoration: none; font-weight: bold; border-radius: 5px;">
+    面談の詳細を見る (30,000円)
+  </a>
+</div>
