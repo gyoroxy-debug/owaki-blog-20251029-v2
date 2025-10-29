@@ -1,0 +1,34 @@
+{{ define "main" }}
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">{{ .Description }}</div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <div class="post-meta">
+      {{- partial "post_meta.html" . -}}
+    </div>
+    {{- end }}
+  </header>
+  <div class="post-content">
+    {{- .Content }}
+  </div>
+  
+  <footer class="post-footer">
+    <div style="border-top: 2px solid #ddd; padding-top: 20px; margin-top: 40px; text-align: center;">
+      <p>これは大脇貴仁の体験談です。</p>
+      <p>法的な助言・保証を意図するものではありません。</p>
+      <p><a href="https://jikou.bokunosaiseikeikaku.icu/" style="font-weight: bold;">2時間オンライン面談の詳細</a></p>
+    </div>
+    
+    {{- if (.Param "ShowPostNavLinks") }}
+    {{- partial "post_nav_links.html" . }}
+    {{- end }}
+    {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
+    {{- partial "share-icons.html" . }}
+    {{- end }}
+  </footer>
+</article>
+{{ end }}
