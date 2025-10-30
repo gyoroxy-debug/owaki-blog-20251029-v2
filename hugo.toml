@@ -44,3 +44,41 @@ home = ["HTML", "RSS", "JSON"]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+# --- ここから追加（8つの基本装備） ---
+
+# 【1. Google Analytics（監視カメラ）】
+[services]
+  [services.googleAnalytics]
+    ID = "G-7GH3C8HD8R"
+
+# 【2. サイト内検索（家の中の地図）】
+# ※既に [outputs] で home = ["HTML", "RSS", "JSON"] 設定済みのため追加不要
+
+# 【3. 構造化データ（ロボットへの経歴書）】
+[params.schema]
+  type = "WebSite"
+  [params.schema.author]
+    type = "Person"
+    name = "大脇貴仁"
+  [params.schema.publisher]
+    type = "Organization"
+    name = "僕の再生計画"
+    [params.schema.publisher.logo]
+      type = "ImageObject"
+      url = "favicon.png"
+
+# 【4. sitemap.xmlの最適化（不要ページの除外）】
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+
+# 【5. Favicon（家の顔）の指定】
+[params.assets]
+  favicon = "favicon.png"
+  favicon16x16 = "favicon.png"
+  favicon32x32 = "favicon.png"
+  apple_touch_icon = "favicon.png"
+  safari_pinned_tab = "favicon.png"
+
+# --- 追加設定ここまで ---

@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="not-found" style="text-align: center; margin-top: 50px;">
+  <h1 style="font-size: 2.5em; margin-bottom: 20px;">404 - ページが見つかりません</h1>
+  <p style="font-size: 1.2em; margin-bottom: 30px;">
+    申し訳ありません。お探しのページは存在しないか、移動した可能性があります。
+  </p>
+  <a href="{{ "/" | absURL }}"
+     style="display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;">
+    ホームに戻る
+  </a>
+</div>
+{{ end }}
