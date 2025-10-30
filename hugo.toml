@@ -82,3 +82,11 @@ home = ["HTML", "RSS", "JSON"]
   safari_pinned_tab = "favicon.png"
 
 # --- 追加設定ここまで ---
+
+# 【sitemap.xmlの除外設定追加】
+[[sitemap.exclude]]
+  path = "/categories/.*"
+[[sitemap.exclude]]
+  path = "/tags/.*"
+[[sitemap.exclude]]
+  path = "/archives/.*"
